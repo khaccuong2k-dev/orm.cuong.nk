@@ -1,0 +1,23 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "name": "orm.cuong.nk/orm.cuong.nk",
+
+    "description": "A short description of what your package does"
+}
